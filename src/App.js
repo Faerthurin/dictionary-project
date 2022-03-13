@@ -13,6 +13,7 @@ export default function App() {
           <a
             href="https://github.com/Faerthurin/dictionary-project.git"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Source code on github{" "}
