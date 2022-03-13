@@ -10,7 +10,10 @@ export default function App() {
       <Search />
       <footer>
         <small>
-          <a href="https://github.com/Faerthurin/dictionary-project.git">
+          <a
+            href="https://github.com/Faerthurin/dictionary-project.git"
+            target="_blank"
+          >
             {" "}
             Source code on github{" "}
           </a>
