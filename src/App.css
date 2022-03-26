@@ -1,4 +1,7 @@
 .App {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
   text-align: center;
 }
 
@@ -7,5 +10,5 @@ h1 {
 }
 
 footer {
-  margin-top: 10 px;
+  margin-top: 10px;
 }

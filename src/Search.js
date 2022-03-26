@@ -3,6 +3,8 @@ import axios from "axios";
 
 import Result from "./Result";
 
+import "./Search.css";
+
 export default function Search() {
   const [word, setWord] = useState(null);
   let [meaning, setMeaning] = useState();
@@ -25,7 +27,7 @@ export default function Search() {
   return (
     <div className="Search">
       <form onSubmit={search}>
-        <input type="search" autoFocus="yes" onChange={changeWord} />
+        <input type="search" autoFocus="yes" onChange={changeWord} id="bar" />
       </form>
       <Result definition={meaning} />
     </div>
