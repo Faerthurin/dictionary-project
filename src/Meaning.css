@@ -1,6 +1,5 @@
 h3 {
   font-size: 30px;
-  margin-bottom: 20px;
 }
 
 p {
@@ -12,4 +11,5 @@ p {
   border: var(--border);
   border-radius: 5px;
   box-shadow: var(--shadow);
+  text-align: left;
 }
